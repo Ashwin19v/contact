@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="rev.css" />
+  </head>
+
+  <body>
+    <form id="form">
+      <h1>FORM</h1>
+      <div class="form1">
+        <label for="name">Name</label><br />
+        <input type="text" id="name" placeholder="Enter your name" />
+      </div>
+      <div class="form2">
+        <label for="email">Email</label><br />
+        <input type="text" id="email" placeholder="Enter your Email" />
+      </div>
+      <div class="form3">
+        <label for="age">Age</label><br />
+        <input type="text" id="age" placeholder="Enter your Age" />
+      </div>
+      <div class="formopt">
+        <label for="job">What job describes you?</label><br />
+        <select id="job">
+          <option>Student</option>
+          <option>Professor</option>
+          <option>Freelancer</option>
+          <option>Doctor</option>
+          <option>Homemaker</option>
+          <option>Banker</option>
+        </select>
+      </div>
+      <div class="chk">
+        <label>Who recommends this?</label><br />
+        <input type="checkbox" id="yes_recommends" /> Yes<br />
+        <input type="checkbox" id="no_recommends" /> No<br />
+        <input type="checkbox" id="others_recommends" /> Others<br />
+      </div>
+      <div class="last">
+        <label>Known programming languages</label><br />
+        <input type="checkbox" id="lang_c" /> C<br />
+        <input type="checkbox" id="lang_cpp" /> C++<br />
+        <input type="checkbox" id="lang_py" /> Python<br />
+        <input type="checkbox" id="lang_js" /> JavaScript<br />
+        <input type="checkbox" id="lang_sql" /> SQL<br />
+        <input type="checkbox" id="lang_react" /> React<br />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
